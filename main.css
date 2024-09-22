@@ -1,0 +1,47 @@
+
+
+.item-description{
+    padding: 5px;
+    width: 400px;
+    margin-bottom: 10px;;
+}
+
+.item-completed:checked + .item-description{
+    background: gray;
+    text-decoration: line-through;
+}
+
+#add{
+    padding: 8px 14px;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 850px;
+    margin-top: 450px;
+    margin-bottom: 30px;
+    
+}
+
+#app{
+    background-color: #454378;
+    width: 100%;
+    height: 100%;
+}
+
+#itemTemplate{
+    margin-left: 200px;
+}
+
+.item{
+    margin-left: 650px;
+}
+
+#items{
+    margin-top: 50px;
+}
+
+.guy{
+    margin-top: 50px;
+}
